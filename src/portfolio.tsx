@@ -3,7 +3,7 @@ import emoji from "react-easy-emoji";
 export const greeting = {
   username: "Sung Joon Ahn",
   title: "안성준",
-  subTitle: emoji(""),
+  subTitle: emoji("안되면 되게하라"),
   role: "Full stack",
   resumeLink: "Your resume link... google drive or something else",
   // IMPORTANT

@@ -54,26 +54,6 @@ export const experience = {
   title: "Work Experience",
   lists: [
     {
-      date: "2018.03~",
-      company: "Google",
-      role: "Front-End Developer"
-    },
-    {
-      date: "test",
-      company: "test",
-      role: "test"
-    },
-    {
-      date: "test",
-      company: "test",
-      role: "test"
-    },
-    {
-      date: "test",
-      company: "test",
-      role: "test"
-    },
-    {
       date: "test",
       company: "test",
       role: "test"
@@ -106,11 +86,6 @@ export const projects = {
       title: "HotelsCombined Clone Coding",
       desc: "JSP, MariaDB를 사용하여 제작한 호텔스컴바인 클론코딩",
       url: "https://github.com/dkstjdwns114/Hotelscombined-Clone"
-    },
-    {
-      title: "Instagram Get Data",
-      desc: "React.js를 사용하여 제작한 실제 인스타그램 데이터 받아오기",
-      url: "https://github.com/dkstjdwns114/instagram_getData"
     }
   ],
   view: true

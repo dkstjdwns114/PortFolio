@@ -32,7 +32,7 @@ export const skills = {
     emoji("✔ MariaDB, MongoDB 사용 가능"),
     emoji("✔ REST API, Graphql 사용 가능"),
     emoji("✔ Django 사용 가능"),
-    emoji("✔ Java, Python, Kotlin 사용 가능"),
+    emoji("✔ Java, Python, Kotlin, C, C++ 등 다양한 서버언어 사용 가능"),
     emoji("✔ React, Node, Graphql, MongoDB 연동 가능")
   ],
   // IMPORTANT
@@ -45,6 +45,7 @@ export const skills = {
     { fontAwesome: "fab fa-node-js", text: "Node.js", proficiency: 60 },
     { fontAwesome: "fab fa-python", text: "Python", proficiency: 60 },
     { fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 50 },
+    { fontAwesome: "fas fa-copyright", text: "C, C++", proficiency: 40 },
     { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 40 }
   ],
   view: true
@@ -69,7 +70,7 @@ export const openSourceProjects = {
 
 export const projects = {
   title: emoji("Projects 💻"),
-  subTitle: "subtitle for projects",
+  subTitle: "",
   lists: [
     {
       title: "Instagram Clone Coding",
@@ -84,7 +85,7 @@ export const projects = {
     },
     {
       title: "HotelsCombined Clone Coding",
-      desc: "JSP, MariaDB를 사용하여 제작한 호텔스컴바인 클론코딩",
+      desc: "JSP, Maven, MariaDB를 사용하여 제작한 호텔스컴바인 클론코딩",
       url: "https://github.com/dkstjdwns114/Hotelscombined-Clone"
     }
   ],

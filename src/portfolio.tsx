@@ -33,7 +33,8 @@ export const skills = {
     emoji("✔ REST API, Graphql 사용 가능"),
     emoji("✔ Django 사용 가능"),
     emoji("✔ Java, Python, Kotlin, C, C++ 등 다양한 서버언어 사용 가능"),
-    emoji("✔ React, Node, Graphql, MongoDB 연동 가능")
+    emoji("✔ React, Node, Graphql, MongoDB 연동 가능"),
+    emoji("✔ AWS, Linux 사용경험")
   ],
   // IMPORTANT
   // You need to find className for font-awesome icon
@@ -46,7 +47,9 @@ export const skills = {
     { fontAwesome: "fab fa-python", text: "Python", proficiency: 60 },
     { fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 50 },
     { fontAwesome: "fas fa-copyright", text: "C, C++", proficiency: 40 },
-    { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 40 }
+    { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 40 },
+    { fontAwesome: "fab fa-aws", text: "AWS", proficiency: 35 },
+    { fontAwesome: "fab fa-linux", text: "Linux", proficiency: 35 }
   ],
   view: true
 };

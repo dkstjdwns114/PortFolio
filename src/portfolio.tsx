@@ -40,16 +40,16 @@ export const skills = {
   // You need to find className for font-awesome icon
   // Go to https://fontawesome.com/ and search icon
   lists: [
-    { fontAwesome: "fab fa-react", text: "React", proficiency: 85 },
-    { fontAwesome: "fab fa-js", text: "JS", proficiency: 85 },
-    { fontAwesome: "fab fa-java", text: "Java", proficiency: 80 },
-    { fontAwesome: "fab fa-node-js", text: "Node.js", proficiency: 60 },
-    { fontAwesome: "fab fa-python", text: "Python", proficiency: 60 },
-    { fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 50 },
-    { fontAwesome: "fas fa-copyright", text: "C, C++", proficiency: 40 },
-    { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 40 },
-    { fontAwesome: "fab fa-aws", text: "AWS", proficiency: 35 },
-    { fontAwesome: "fab fa-linux", text: "Linux", proficiency: 35 }
+    { fontAwesome: "fab fa-react", text: "React", proficiency: 55 },
+    { fontAwesome: "fab fa-js", text: "JS", proficiency: 55 },
+    { fontAwesome: "fab fa-java", text: "Java", proficiency: 50 },
+    { fontAwesome: "fab fa-node-js", text: "Node.js", proficiency: 40 },
+    { fontAwesome: "fab fa-python", text: "Python", proficiency: 40 },
+    { fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 35 },
+    { fontAwesome: "fas fa-copyright", text: "C, C++", proficiency: 25 },
+    { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 20 },
+    { fontAwesome: "fab fa-aws", text: "AWS", proficiency: 15 },
+    { fontAwesome: "fab fa-linux", text: "Linux", proficiency: 15 }
   ],
   view: true
 };
@@ -90,6 +90,12 @@ export const projects = {
       title: "HotelsCombined Clone Coding",
       desc: "JSP, Maven, MariaDB를 사용하여 제작한 호텔스컴바인 클론코딩",
       url: "https://github.com/dkstjdwns114/Hotelscombined-Clone"
+    },
+    {
+      title: "해산물 시세 조회 프로그램",
+      desc:
+        "JavaFX, MariaDB, ChromeDriver를 이용하여 제작한 해산물 시세 조회/비교 프로그램",
+      url: "https://github.com/dkstjdwns114/javaFX_seefood_price"
     }
   ],
   view: true

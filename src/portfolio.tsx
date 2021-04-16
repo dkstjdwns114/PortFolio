@@ -32,7 +32,7 @@ export const skills = {
     emoji("✔ MariaDB, MongoDB 사용 가능"),
     emoji("✔ REST API, Graphql 사용 가능"),
     emoji("✔ Django 사용 가능"),
-    emoji("✔ Java, Python, Kotlin, C, C++ 등 다양한 서버언어 사용 가능"),
+    emoji("✔ Java, Python, C, C++ 등 다양한 서버언어 사용 가능"),
     emoji("✔ React, Node, Graphql, MongoDB 연동 가능"),
     emoji("✔ AWS, Linux 사용경험")
   ],
@@ -40,11 +40,11 @@ export const skills = {
   // You need to find className for font-awesome icon
   // Go to https://fontawesome.com/ and search icon
   lists: [
-    { fontAwesome: "fab fa-react", text: "React", proficiency: 55 },
-    { fontAwesome: "fab fa-js", text: "JS", proficiency: 55 },
-    { fontAwesome: "fab fa-java", text: "Java", proficiency: 50 },
-    { fontAwesome: "fab fa-node-js", text: "Node.js", proficiency: 40 },
+    { fontAwesome: "fab fa-react", text: "React", proficiency: 50 },
+    { fontAwesome: "fab fa-js", text: "JS", proficiency: 50 },
+    { fontAwesome: "fab fa-java", text: "Java", proficiency: 45 },
     { fontAwesome: "fab fa-python", text: "Python", proficiency: 40 },
+    { fontAwesome: "fab fa-node-js", text: "Node.js", proficiency: 35 },
     { fontAwesome: "fab fa-html5", text: "HTML5", proficiency: 35 },
     { fontAwesome: "fas fa-copyright", text: "C, C++", proficiency: 25 },
     { fontAwesome: "fab fa-css3-alt", text: "CSS3", proficiency: 20 },
@@ -76,6 +76,17 @@ export const projects = {
   subTitle: "",
   lists: [
     {
+      title: "THREESTEPLEASE",
+      desc: "지방행정 인허가데이터를 이용하여 만든 상가 폐업률 조회 프로그램",
+      url: "https://github.com/dkstjdwns114/three_step_lease"
+    },
+    {
+      title: "THREESTEPLEASE Android",
+      desc:
+        "지방행정 인허가데이터를 이용하여 만든 상가 폐업률 조회 프로그램 안드로이드 앱",
+      url: "https://github.com/dkstjdwns114/three_step_lease_cordova"
+    },
+    {
       title: "Instagram Clone Coding",
       desc:
         "React.js, Node.js, MongoDB, Graphql 을 사용하여 제작한 인스타그램 클론코딩",
@@ -88,7 +99,7 @@ export const projects = {
     },
     {
       title: "HotelsCombined Clone Coding",
-      desc: "JSP, Maven, MariaDB를 사용하여 제작한 호텔스컴바인 클론코딩",
+      desc: "JSP, MariaDB를 사용하여 제작한 호텔스컴바인 클론코딩",
       url: "https://github.com/dkstjdwns114/Hotelscombined-Clone"
     },
     {
